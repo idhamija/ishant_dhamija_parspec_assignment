@@ -1,0 +1,6 @@
+/.venv
+/instance
+/.vscode
+**/__pycache__
+*.pyc
+github_link.txt

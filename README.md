@@ -18,13 +18,13 @@ This backend service manages and processes orders for an e-commerce platform. It
 ## Setup and Running Instructions
 
 1. **Clone the Repository**
-   - `git clone https://github.com/your-repo/order-processing-backend.git`
-   - `cd ecommerce-backend`
+   - `git clone https://github.com/idhamija/ishant_dhamija_parspec_assignment.git`
+   - `cd ishant_dhamija_parspec_assignment`
 2. **Install Dependencies**
    - Set up a virtual environment
-   - Run `pip install -r requirements.txt`
+   - Run `pip3 install -r requirements.txt`
 3. **Start the Application**
-   - Run `python app.py`
+   - Run `python3 app.py`
 
 ## Example API Requests and Responses
 
@@ -52,7 +52,7 @@ curl -X POST http://127.0.0.1:5000/orders \
 **Request:**
 
 ```
-curl http://localhost:3000/orders/A0001
+curl http://127.0.0.1:5000/orders/A0001
 ```
 
 **Response:**
@@ -74,7 +74,7 @@ curl http://localhost:3000/orders/A0001
 **Request:**
 
 ```
-curl http://localhost:3000/metrics
+curl http://127.0.0.1:5000/metrics
 ```
 
 **Response:**
